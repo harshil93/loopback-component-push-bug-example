@@ -1,0 +1,18 @@
+{
+  "db": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "demo",
+    "username": "username",
+    "password": "password",
+    "name": "db",
+    "connector": "mysql"
+  },
+  "push": {
+    "name": "push",
+    "connector": "loopback-component-push",
+    "installation": "installation",
+    "notification": "notification",
+    "application": "application"
+  }
+}
